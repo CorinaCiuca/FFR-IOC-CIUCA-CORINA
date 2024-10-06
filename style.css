@@ -1,59 +1,62 @@
 body{
-    font-family:'Times new roman', Times, serif ;
-    background-color:rgb(41, 39, 38);
-    color:rgb(25, 0, 255)
+    font-family:'Times New Roman', Times, serif ;
+    background-color:#baba;
+    color:#333;
+    margin: 0;
+    padding: 0;
 }
 
 header{
-    background-color:rgb(252, 255, 254);
-    color:rgb(4, 4, 4);
-    text-align:center;
+    background-color:#4d4d4d;
+    color: white;
+    text-align: center;
     padding: 20px;
-
-}
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode','Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
     nav{
-        background-color:beige;
-        overflow:hidden;
-
+        background-color:#333
+        overflow: hidden;
     }
 
-nav a{
-    float:left;
-    display:block;
-    color: rgb(230, 231, 233);
+    nav a{
+    float: left;
+    display: block;
+    color: white
     padding: 1%;
     text-decoration: none
-}
+    }
 
-nav a:hover{
+    nav a:hover{
     background-color: beige;
     color: black;
-}
+    }
+
 .principal{
     align-items: center;
     justify-content: space-between;
     pedding: 20px;
     margin: 20px;
-    background-color: rgb(240, 255, 252);
+    background-color: white;
     border-radius: 5px;
     display: flex;
 }
 
 .principal h4{
     font-size: 25px ;
-  font-family:' Segoe UI', Thahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Thahoma, Geneva, Verdana, sans-serif;
 }
 .principal p{
     font-size: 18px;
     color:red;
 }
+
 .principal img{
     max-width: 150px;
     height: auto;
     margin-right: 10%;
 }
 button{
-    background-color: #099024;
+    background-color: #333;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -71,22 +74,22 @@ footer{
     text-align: center;
     padding: 10px 0px;
     color:white;
-    background-color: rgb(255, 255, 255);
+    background-color: #333;
 }
 #liste{
     margin: 20px;
     padding: 20px;
-    background-color: rgb(249, 245, 245);
+    background-color: white;
     border-radius: 5px;
 }
 table{
-width: 100;
+width: 100%;
 border-collapse: collapse;
 }
 th, td{
     padding: 10px;
     text-align: center;
-    border: 2px solid rgb(95.95.95);
+    border: 2px solid rgb(95,95,95);
 }
 th{
     background-color: rgb(168,174, 174);
